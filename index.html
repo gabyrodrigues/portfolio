@@ -12,20 +12,21 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <script src="js/index.js"></script>
 </head>
 
 <body>
 
   <!-- container menu + header -->
-
+  <a id="home">
   <section class="header">
     <header>
       <div class="menu">
         <nav>
           <a class="menu-item" href= "#home">HOME</a>
-          <a class="menu-item" href= "#services">SOBRE</a>
+          <a class="menu-item" href= "#sobre">SOBRE</a>
           <a class="menu-item" href= "#portfolio">PORTFOLIO</a>
-          <a class="menu-item" href= "#contact">CONTATO</a>
+          <a class="menu-item" href= "#contato">CONTATO</a>
         </nav>
       </div>
     </header>
@@ -41,94 +42,120 @@
   </section>
 
   <!-- container sobre mim -->
-
+  <a id="sobre">
   <section>
-    <div>      
-      <div class="grey-font">
-        <h1 class="linha1">SOBRE MIM</h1>
-        <span class="linha2"></span>
+      <div class="container-sobre">
+        <div class="grey-font">
+          <h1 class="linha1">SOBRE MIM</h1>
+          <span class="linha2"></span>
+        </div>
+        <div>    
+          <p>Sou uma garota que adora ler livros e maratonar séries da netflix, apaixonada por pesquisar sobre viagens e tecnologia. Sempre vivo em busca de conhecimento, principalmente os relacionados ao web design e programação</p>
+          <p>Formada em técnico em informática pela EEEP José de Barcelos, atualmente cursando o 3º semestre do curso de Sistemas e mídias digitais na Universidade Federal do Ceará e estagiária em desenvolvimento de sistemas web utilizando Ruby on Rails. Front-end faz parte também!</p>
+          <p>Sou uma pessoa comprometida em não desistir dos meus objetivos e que tenta ao máximo aprender coisas sozinha, no futuro pretendo ser uma desenvolvedora full-stack, mas até lá ainda falta um longo caminho.</p>      
+        </div>
+      </div>     
+      <div class="container-sobre">
+        <div class="grey-font">
+          <h1 class="linha1">SKILLS</h1>
+          <span class="linha2"></span>
+        </div>
+        <div class="grey-font">
+          <h4>PROGRAMAÇÃO</h4>
+          <h4>HTML & CSS</h4>
+          <h4>BOOTSTRAP</h4>
+        </div>
       </div>
-      <div>    
-        <p>Sou uma garota que adora ler livros e maratonar séries da netflix, apaixonada por pesquisar sobre viagens e tecnologia. Sempre vivo em busca de conhecimento, principalmente os relacionados ao web design e programação</p>
-        <p>Formada em técnico em informática pela EEEP José de Barcelos, atualmente cursando o 3º semestre do curso de Sistemas e mídias digitais na Universidade Federal do Ceará e estagiária em desenvolvimento de sistemas web utilizando Ruby on Rails. Front-end faz parte também!</p>
-        <p>Sou uma pessoa comprometida em não desistir dos meus objetivos e que tenta ao máximo aprender coisas sozinha, no futuro pretendo ser uma desenvolvedora full-stack, mas até lá ainda falta um longo caminho.</p>      
-      </div>
-      <div class="grey-font">
-        <h1 class="linha1">SKILLS</h1>
-        <span class="linha2"></span>
-      </div>
-      <div class="grey-font">
-        <h4>PROGRAMAÇÃO</h4>
-        <h4>HTML & CSS</h4>
-        <h4>BOOTSTRAP</h4>
-      </div>
-    </div>
   </section>
 
   <!-- container projetos -->
+  <a id="portfolio">
   <section>
-    <div class="grey-font">
-      <div>
-        <h1 class="linha1">PROJETOS</h1>
-        <span class="linha2"></span>
-      </div>
-      <div class="pw-menu grey-font">
-        <nav>
-          <a class="pw-item grey-font" href= "#">PROGRAMAÇÃO</a>
-          <a class="pw-item grey-font" href= "#">WEB</a>
-        </nav>
-      </div>
-      <div class="aba-programacao">
-        <div class="container">
-          <img src="imgs/projeto1.png" alt="projeto: jogo (opira)" class="image">
-          <div class="overlay">
-            <div class="text">
-              <h3>OPIRA</h3>
-              <p>Jogo</p>
+    <div class="container-projeto">
+      <div class="grey-font">
+        <div>
+          <h1 class="linha1">PROJETOS</h1>
+          <span class="linha2"></span>
+        </div>
+        <div class="pw-menu grey-font">
+          <nav>
+            <a class="pw-item grey-font" id="programacao" href= "#">PROGRAMAÇÃO</a>
+            <a class="pw-item grey-font" id="web" href= "#">WEB</a>
+          </nav>
+        </div>
+
+          <div class="flex-container" align="center">
+            <div class="aba-programacao">
+
+              <div class="flex-item" id="opira">
+
+                <div class="container-foto">
+                  <img src="imgs/projeto1.png" alt="projeto: jogo (opira)" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <h3>OPIRA</h3>
+                      <p>Jogo</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="flex-item" id="lakto">
+                <div class="container-foto">
+                  <img src="imgs/projeto2.png" alt="projeto: aplicação(lakto)" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <h3>LAKTO</h3>
+                      <p>Aplicação</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-container">
+
+              <div class="flex-item" id="paintbrush">
+                <div class="container-foto">
+                  <img src="imgs/projeto3.png" alt="projeto: brush" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <h3>PAINTBRUSH - P5</h3>
+                      <p>Aplicação</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="flex-container" id="clothesguide">
+          <div class="aba-web">
+            <div class="flex-item">
+
+              <div class="container-foto clothesguide">
+                <img src="imgs/site1.png" alt="projeto: clothesguide" class="image">
+                <div class="overlay">
+                  <div class="text">
+                    <h3>CLOTHESGUIDE</h3>
+                    <p>Site</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="container">
-          <img src="imgs/projeto2.png" alt="projeto: aplicação(lakto)" class="image">
-          <div class="overlay">
-            <div class="text">
-              <h3>LAKTO</h3>
-              <p>Aplicação</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <img src="imgs/projeto3.png" alt="projeto: brush" class="image">
-          <div class="overlay">
-            <div class="text">
-              <h3>PAINTBRUSH - P5</h3>
-              <p>Aplicação</p>
-            </div>
-          </div>
-        </div>
-
       </div>
-      <div class="aba-web">
-        <div class="container">
-          <img src="imgs/site1.png" alt="projeto: brush" class="image">
-          <div class="overlay">
-            <div class="text">
-              <h3>CLOTHESGUIDE</h3>
-              <p>Site</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </section>
+</section>
+
 
   <!-- container contato -->
+  <a id="contato">
   <section>
     <div>  
-      <div>
+      <div class="container-contato">
         <div class="grey-font">
           <h1 class="linha1">CONTATO</h1>
           <span class="linha2"></span>
@@ -148,9 +175,8 @@
           <p>LINKEDIN</p>
           <p>gabrielyrodrigues</p>
         </div>
-
       </div>   
-      <div>
+      <div class="container-contato">
         <div class="grey-font">
           <h1 class="linha1">ENVIE UM E-MAIL</h1>
           <span class="linha2"></span>
@@ -175,15 +201,23 @@
   </section>
 
   <!-- Início do footer -->
-  <nav class="footer">
     <footer> 
       <p class="p-footer">© 2018 Gabriely Rodrigues</p>
     </footer>
-  </nav>
   <!-- Fim do footer -->
-
-  <script  src="js/index.js"></script>
-
 </body>
 
 </html>
+<script type="text/javascript">
+  $('#clothesguide').hide();
+
+  $( '#programacao' ).click(function() {
+    $("#clothesguide").hide();
+  });
+
+  $( '#programacao' ).click(function() {
+    $("#opira").hide();
+    $("#lakto").hide();
+    $("#paintbrush").hide();
+  });
+</script>
