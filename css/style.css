@@ -5,6 +5,13 @@ body {
   height: 100%;
   margin: 0;
 }
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .header{
   background-color: #222426;
   height: 100%;
@@ -111,12 +118,66 @@ body {
   opacity: 1;
 }
 
-.container-sobre{
-  float: left;
-  width: 50%;
-  padding: 20px;
-  box-sizing: border-box;
-}
+
+/*container sobre */
+  .container-sobre{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  /* barra de progresso - programação */
+  .prog-progress {
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 3px;
+    border: 2px solid #222426;
+    width: 40%;
+  }
+
+  .prog-progress-bar {
+    background-color: #222426;
+    width: 70%;
+    height: 12px;
+    border-radius: 10px;
+  }
+
+  /* barra de progresso - html e css */
+
+  .html-css-progress {
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 3px;
+    border: 2px solid #222426;
+    width: 40%;
+  }
+
+  .html-css-progress-bar {
+    background-color: #222426;
+    width: 60%;
+    height: 12px;
+    border-radius: 10px;
+  }
+
+  /* barra de progresso - bootstrap */
+
+  .bootstrap-progress {
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 3px;
+    border: 2px solid #222426;
+    width: 40%;
+  }
+
+  .bootstrap-progress-bar {
+    background-color: #222426;
+    width: 50%;
+    height: 12px;
+    border-radius: 10px;
+  }
+
+/*container sobre fim*/
 
 .container-projeto{
   float: center;
@@ -126,10 +187,24 @@ body {
   clear: both;
 }
 
+/*container contato */
 .container-contato{
   float: left;
   width: 50%;
   padding: 20px;
+  box-sizing: border-box;
+}
+
+.icone{
+  float: left;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.icone-desc{
+  float: left;
+  width: 50%;
+  /*padding: 20px;*/
   box-sizing: border-box;
 }
 
