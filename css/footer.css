@@ -1,4 +1,4 @@
-footer{
+.footer{
   background-color: #222426;
   color: #00f6ed;
   margin:0px;
@@ -15,11 +15,10 @@ footer{
 /*rodapé responsivo*/
 @media screen and (max-width: 566px){
   footer{
-    position:fixed;
     bottom:0px;
-  }
-  
+  } 
 }
+
 @media screen and (min-width: 566px){
   footer{
     height: 45px;

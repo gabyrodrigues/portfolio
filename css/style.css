@@ -278,3 +278,16 @@ section{
 
   margin: 10px;
 }
+
+/****RESPONSIVIDADE****/
+
+@media screen and (max-width: 566px){
+  .container-sobre{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 566px){
+  .container-contato{
+    width: 100%;
+  }
+}
