@@ -36,6 +36,52 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  /*close lakto */
+  .close-lakto {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close-lakto:hover,
+  .close-lakto:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* close pb */
+  .close-pb {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close-pb:hover,
+  .close-pb:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*close cg */
+  .close-cg {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close-cg:hover,
+  .close-cg:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
   /* modal footer */
   .modal-footer{
     background-color: #222;
