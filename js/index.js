@@ -71,3 +71,22 @@
 	}
 
 /************************palavras header*******************************/
+var words = ["desenvolvedora", "estudante de SMD", "viciada em Netflix"];
+var i = -1;
+
+function aleatorio() {
+
+  setInterval(function () {
+    i++
+
+    $("#palavras").fadeOut('slow', function () {
+      $(this).html(words[i]).fadeIn("slow");
+    });
+
+    if (i === 3) {
+      i = -1;
+    }
+  }, 2000);
+}
+
+aleatorio();

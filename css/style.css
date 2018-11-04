@@ -219,6 +219,10 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.text-center{
+  text-align: center !important;
+}
 .icon{
   display: block;
   max-width: 35px;
@@ -280,6 +284,11 @@ section{
 }
 
 /****RESPONSIVIDADE****/
+@media screen and (max-width: 566px){
+  .menu{
+    display: none;
+  }
+}
 
 @media screen and (max-width: 566px){
   .container-sobre{
