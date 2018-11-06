@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+.geral{
+  width: 1024px;
+  margin: 0 auto;
+}
+
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -79,10 +84,15 @@ body {
   width: 80px;
 }
 
+.indent{
+  text-indent :2em;
+}
+
 .pw-item{
   font-weight: bold;
   text-decoration: none;
   margin-left: 10px;
+  cursor: pointer;
 }
 .pw-item:active{
   border-bottom: 3px solid #00f6ed;
@@ -126,7 +136,13 @@ body {
 /*container sobre */
   .container-sobre{
     float: left;
-    width: 50%;
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .container-skills{
+    float: left;
+    width: 30%;
     padding: 20px;
     box-sizing: border-box;
   }
@@ -137,7 +153,7 @@ body {
     border-radius: 13px;
     padding: 3px;
     border: 2px solid #222426;
-    width: 40%;
+    width: 80%;
     display: inline-block;
   }
 
@@ -155,7 +171,7 @@ body {
     border-radius: 13px;
     padding: 3px;
     border: 2px solid #222426;
-    width: 40%;
+    width: 80%;
     display: inline-block;
   }
 
@@ -173,7 +189,7 @@ body {
     border-radius: 13px;
     padding: 3px;
     border: 2px solid #222426;
-    width: 40%;
+    width: 80%;
     display: inline-block;
   }
 
@@ -288,10 +304,8 @@ section{
 
 .flex-container{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
+  flex-wrap: wrap;
 }
 .flex-item{
 
@@ -321,5 +335,20 @@ section{
   }
   .container-contato{
     width: 100%;
+  }
+  .flex-item{
+    margin-left: -100px;
+  }
+  form{
+    width: 25%;
+  }
+  .space{
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 566px){
+  .p-header{
+    margin-right: -350px;
   }
 }
