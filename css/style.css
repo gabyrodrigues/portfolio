@@ -138,6 +138,7 @@ body {
     padding: 3px;
     border: 2px solid #222426;
     width: 40%;
+    display: inline-block;
   }
 
   .prog-progress-bar {
@@ -155,6 +156,7 @@ body {
     padding: 3px;
     border: 2px solid #222426;
     width: 40%;
+    display: inline-block;
   }
 
   .html-css-progress-bar {
@@ -172,6 +174,7 @@ body {
     padding: 3px;
     border: 2px solid #222426;
     width: 40%;
+    display: inline-block;
   }
 
   .bootstrap-progress-bar {
@@ -199,7 +202,7 @@ body {
 
 .contato .icone {
   display: inline-block;
-  margin-left: 15px;
+  margin-right: -10px;
 }
 
 
@@ -209,7 +212,7 @@ body {
 }
 
 .contato .icone-desc span {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .container-contato{
@@ -261,20 +264,20 @@ input[type=text], textarea {
 }
 
 /* style botão de enviar*/
-input[type=submit] {
+button[type=submit] {
   background-color: #8e8e8e;
   color: #fff;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
 }
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color: #222426;
 }
 .container-mail {
   border-radius: 5px;
-  padding: 20px;
   width: 350px;
+  margin-top: 40px;
 }
 .input{
   height: 20px;
@@ -304,8 +307,18 @@ section{
   .container-sobre{
     width: 100%;
   }
-}
-@media screen and (max-width: 566px){
+  .container-mail{
+    width: 100%;
+  }
+  .prog-progress{
+    width: 80%;
+  }
+  .html-css-progress {
+    width: 80%;
+  }
+  .bootstrap-progress {
+    width: 80%; 
+  }
   .container-contato{
     width: 100%;
   }

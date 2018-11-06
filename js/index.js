@@ -90,3 +90,19 @@ function aleatorio() {
 }
 
 aleatorio();
+
+/*************ENVIAR EMAIL - SIMULAÇÃO *****************/
+function clicarEnviar() {
+	if(email.value == ''){
+		alert("Preencha o campo de email");
+	}else if(mensagem.value == ''){
+		alert("Preencha o campo de mensagem");
+	}else{
+		alert("E-mail enviado com sucesso!");
+		email.value = '';
+		assunto.value = '';
+		mensagem.value = '';
+
+	}
+	
+}
