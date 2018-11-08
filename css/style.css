@@ -11,6 +11,9 @@ body {
   margin: 0 auto;
 }
 
+.margin-r20{
+  margin-right: 20px;
+}
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -73,6 +76,8 @@ body {
   display: block;
   border-bottom: 3px solid #00f6ed;
   width: 40px;
+  margin-bottom: -10px;
+  margin-top: 7px;
 }
 .linha2{
   margin-bottom: 10px;
@@ -148,6 +153,11 @@ body {
   }
 
   /* barra de progresso - programação */
+  .progresso {
+    background-color: #fff;
+    width: 80%;
+    display: inline-block;
+  }
   .prog-progress {
     background-color: #fff;
     border-radius: 13px;
@@ -350,5 +360,171 @@ section{
 @media screen and (min-width: 566px){
   .p-header{
     margin-right: -350px;
+  }
+}
+
+/*******ANIMAÇÕES - BARRA DE PROGRESSO**********/
+.porcentagem{
+  display: inline-block;
+}
+
+/* Added for demo purposes */
+
+.meter{
+  margin-bottom: 1.5em;
+}
+
+/* Usage examples start here */
+.stripes {
+  content: "";
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  animation: none;
+  background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  -webkit-background-size: 50px 50px;
+  -moz-background-size: 50px 50px;
+  background-size: 50px 50px;
+}
+
+.meter {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px inset;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px inset;
+  position: relative;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 13px;
+  height: 10px;
+  padding: 3px;
+  border: 2px solid #222426;
+}
+.meter .animate {
+  content: "";
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-animation: big 2s linear infinite;
+  -moz-animation: big 2s linear infinite;
+  -ms-animation: big 2s linear infinite;
+  animation: big 2s linear infinite;
+  background: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  -webkit-background-size: 50px 50px;
+  -moz-background-size: 50px 50px;
+  background-size: 50px 50px;
+}
+.meter > span {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 2px 9px inset, rgba(0, 0, 0, 0.4) 0 -2px 6px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.3) 0 2px 9px inset, rgba(0, 0, 0, 0.4) 0 -2px 6px inset;
+  box-shadow: rgba(255, 255, 255, 0.3) 0 2px 9px inset, rgba(0, 0, 0, 0.4) 0 -2px 6px inset;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.meter .mariam {
+  -moz-border-radius-topleft: 20px;
+  -webkit-border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #000;
+  position: relative;
+}
+
+/*tamanho das barras de progressso*/
+.width-prog{
+  width: 70%;
+}
+
+.width-html-css{
+  width: 60%;
+}
+
+.width-bootstrap{
+  width: 50%;
+}
+.meter .mariam:after {
+  -moz-border-radius-topleft: 20px;
+  -webkit-border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  content: "";
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+
+@-moz-keyframes big {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@-webkit-keyframes big {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@-ms-keyframes big {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@keyframes big {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
   }
 }
