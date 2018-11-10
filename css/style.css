@@ -355,6 +355,9 @@ section{
   .space{
     width: 25%;
   }
+  .geral .container-projeto{
+    width: 280px;
+  }
 }
 
 @media screen and (min-width: 566px){
