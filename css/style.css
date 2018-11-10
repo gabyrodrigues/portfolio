@@ -5,7 +5,15 @@ body {
   height: 100%;
   margin: 0;
 }
-
+.titulo{
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
 .geral{
   width: 1024px;
   margin: 0 auto;
@@ -20,11 +28,11 @@ body {
   height: auto;
 }
 
-.header{
+.inicio{
   background-color: #222426;
   height: 100%;
   margin: 0;
-  margin-top: -45px; 
+  margin-top: -28px; 
   padding: 0;
 }
 .menu{
@@ -63,7 +71,7 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-#home h1 p {
+#home h1 {
   font-size: 42px;
   font-weight: 400;
 }
@@ -76,7 +84,7 @@ body {
   display: block;
   border-bottom: 3px solid #00f6ed;
   width: 40px;
-  margin-bottom: -10px;
+  margin-bottom: -7px;
   margin-top: 7px;
 }
 .linha2{
@@ -308,7 +316,7 @@ button[type=submit]:hover {
 .input{
   height: 20px;
 }
-section{
+.section{
   padding: 20px;
 }
 
@@ -324,7 +332,7 @@ section{
 
 /****RESPONSIVIDADE****/
 
-@media screen and (max-width: 566px){
+@media screen and (max-width: 768px){
   .menu{
     display: none;
   }
@@ -356,7 +364,8 @@ section{
     width: 25%;
   }
   .geral .container-projeto{
-    width: 280px;
+    /* width: 280px;*/
+    width: 350px;
   }
 }
 

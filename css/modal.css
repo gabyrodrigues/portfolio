@@ -15,70 +15,71 @@
 
   /* Modal Content */
   .modal-content {
-    background-color: #fefefe;
+    /*background-color: #fefefe;*/
     margin: auto;
     /*padding: 20px;*/
-    border: 1px solid #888;
-    width: 50%;
+    /*border: 1px solid #888;*/
+    width: 40%;
     margin-bottom: 200px;
+    margin-top: -90px !important;
   }
 
   /* The Close Button */
   .close {
-    color: #aaaaaa;
+    color: #fff;
     float: right;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
   }
 
   .close:hover,
   .close:focus {
-    color: #000;
+    color: #333;
     text-decoration: none;
     cursor: pointer;
   }
 
   /*close lakto */
   .close-lakto {
-    color: #aaaaaa;
+    color: #fff;
     float: right;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
   }
 
   .close-lakto:hover,
   .close-lakto:focus {
-    color: #000;
+    color: #333;
     text-decoration: none;
     cursor: pointer;
   }
 
   /* close pb */
   .close-pb {
-    color: #aaaaaa;
+    color: #fff;
     float: right;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
   }
 
   .close-pb:hover,
   .close-pb:focus {
-    color: #000;
+    color: #333;
     text-decoration: none;
     cursor: pointer;
   }
 
   /*close cg */
   .close-cg {
-    color: #aaaaaa;
+    color: #fff;
     float: right;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
   }
 
   .close-cg:hover,
   .close-cg:focus {
-    color: #000;
+    color: #333;
     text-decoration: none;
     cursor: pointer;
   }
@@ -90,3 +91,10 @@
     padding: 20px;
 
   }
+
+/**********RESPONSIVIDADE MODAL************/
+@media screen and (max-width: 768px){
+  .modal-content {
+    width: 90%;
+  }
+}
