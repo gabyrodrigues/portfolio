@@ -4,6 +4,7 @@ body {
   font-smoothing: antialiased;
   height: 100%;
   margin: 0;
+  overflow-x:hidden;
 }
 .titulo{
   display: block;
@@ -342,34 +343,24 @@ button[type=submit]:hover {
   .container-mail{
     width: 100%;
   }
-  .prog-progress{
-    width: 80%;
-  }
-  .html-css-progress {
-    width: 80%;
-  }
-  .bootstrap-progress {
-    width: 80%; 
-  }
   .container-contato{
     width: 100%;
   }
-  .flex-item{
-    margin-left: -100px;
+  .container-skills{
+    width: 100%;
   }
   form{
-    width: 25%;
+    width: 100%;
   }
   .space{
-    width: 25%;
+    width: 100%;
   }
-  .geral .container-projeto{
-    /* width: 280px;*/
-    width: 350px;
+  .geral{
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 566px){
+@media screen and (min-width: 768px){
   .p-header{
     margin-right: -350px;
   }
